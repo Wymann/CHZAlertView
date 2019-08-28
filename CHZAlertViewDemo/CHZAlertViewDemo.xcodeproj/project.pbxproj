@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F6C1A3972316583200374226 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F6C1A3962316583200374226 /* AppDelegate.m */; };
+		F6C1A39A2316583200374226 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6C1A3992316583200374226 /* ViewController.m */; };
+		F6C1A39F2316583300374226 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6C1A39E2316583300374226 /* Assets.xcassets */; };
+		F6C1A3A22316583300374226 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6C1A3A02316583300374226 /* LaunchScreen.storyboard */; };
+		F6C1A3A52316583300374226 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F6C1A3A42316583300374226 /* main.m */; };
+		F6C1A3AF2316583300374226 /* CHZAlertViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F6C1A3AE2316583300374226 /* CHZAlertViewDemoUITests.m */; };
+		F6C1A3C92316594100374226 /* CHZPickerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F6C1A3BB2316594000374226 /* CHZPickerModel.m */; };
+		F6C1A3CA2316594100374226 /* CHZAlertSetup.m in Sources */ = {isa = PBXBuildFile; fileRef = F6C1A3BD2316594000374226 /* CHZAlertSetup.m */; };
+		F6C1A3CB2316594100374226 /* CHZAlertButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F6C1A3BE2316594000374226 /* CHZAlertButtonItem.m */; };
+		F6C1A3CC2316594100374226 /* CHZAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6C1A3C32316594000374226 /* CHZAlertView.m */; };
+		F6C1A3CD2316594100374226 /* UITextView+Placeholder.m in Sources */ = {isa = PBXBuildFile; fileRef = F6C1A3C52316594000374226 /* UITextView+Placeholder.m */; };
+		F6C1A3CE2316594100374226 /* CHZTextTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F6C1A3C82316594000374226 /* CHZTextTool.m */; };
+		F6C1A3D12316598100374226 /* BasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6C1A3D02316598100374226 /* BasicViewController.m */; };
+		F6C1A3D623165BCA00374226 /* topIcon2.png in Resources */ = {isa = PBXBuildFile; fileRef = F6C1A3D323165BCA00374226 /* topIcon2.png */; };
+		F6C1A3D723165BCA00374226 /* topIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = F6C1A3D423165BCA00374226 /* topIcon.png */; };
+		F6C1A3D823165BCA00374226 /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = F6C1A3D523165BCA00374226 /* image.png */; };
+		F6C1A3DB23165D0100374226 /* NormalAlertVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F6C1A3DA23165D0100374226 /* NormalAlertVC.m */; };
+		F6C1A3DE2316621900374226 /* ImageAlertVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F6C1A3DD2316621900374226 /* ImageAlertVC.m */; };
+		F6C1A3E12316692C00374226 /* TextFieldAlertVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F6C1A3E02316692C00374226 /* TextFieldAlertVC.m */; };
+		F6C1A3E423166E0300374226 /* TextViewAlertVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F6C1A3E323166E0300374226 /* TextViewAlertVC.m */; };
+		F6C1A3E72316718F00374226 /* PickerAlertVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F6C1A3E62316718F00374226 /* PickerAlertVC.m */; };
+		F6C1A3EA2316740700374226 /* TimerAlertVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F6C1A3E92316740700374226 /* TimerAlertVC.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F6C1A3AB2316583300374226 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6C1A38A2316583200374226 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6C1A3912316583200374226;
+			remoteInfo = CHZAlertViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F6C1A3922316583200374226 /* CHZAlertViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CHZAlertViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6C1A3952316583200374226 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F6C1A3962316583200374226 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F6C1A3982316583200374226 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F6C1A3992316583200374226 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F6C1A39E2316583300374226 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F6C1A3A12316583300374226 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F6C1A3A32316583300374226 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6C1A3A42316583300374226 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F6C1A3AA2316583300374226 /* CHZAlertViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CHZAlertViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6C1A3AE2316583300374226 /* CHZAlertViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CHZAlertViewDemoUITests.m; sourceTree = "<group>"; };
+		F6C1A3B02316583300374226 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6C1A3BB2316594000374226 /* CHZPickerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHZPickerModel.m; sourceTree = "<group>"; };
+		F6C1A3BC2316594000374226 /* CHZAlertButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHZAlertButtonItem.h; sourceTree = "<group>"; };
+		F6C1A3BD2316594000374226 /* CHZAlertSetup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHZAlertSetup.m; sourceTree = "<group>"; };
+		F6C1A3BE2316594000374226 /* CHZAlertButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHZAlertButtonItem.m; sourceTree = "<group>"; };
+		F6C1A3BF2316594000374226 /* CHZPickerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHZPickerModel.h; sourceTree = "<group>"; };
+		F6C1A3C02316594000374226 /* CHZAlertSetup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHZAlertSetup.h; sourceTree = "<group>"; };
+		F6C1A3C22316594000374226 /* CHZAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHZAlertView.h; sourceTree = "<group>"; };
+		F6C1A3C32316594000374226 /* CHZAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHZAlertView.m; sourceTree = "<group>"; };
+		F6C1A3C52316594000374226 /* UITextView+Placeholder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+Placeholder.m"; sourceTree = "<group>"; };
+		F6C1A3C62316594000374226 /* CHZTextTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHZTextTool.h; sourceTree = "<group>"; };
+		F6C1A3C72316594000374226 /* UITextView+Placeholder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+Placeholder.h"; sourceTree = "<group>"; };
+		F6C1A3C82316594000374226 /* CHZTextTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHZTextTool.m; sourceTree = "<group>"; };
+		F6C1A3CF2316598100374226 /* BasicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicViewController.h; sourceTree = "<group>"; };
+		F6C1A3D02316598100374226 /* BasicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicViewController.m; sourceTree = "<group>"; };
+		F6C1A3D323165BCA00374226 /* topIcon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = topIcon2.png; sourceTree = "<group>"; };
+		F6C1A3D423165BCA00374226 /* topIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = topIcon.png; sourceTree = "<group>"; };
+		F6C1A3D523165BCA00374226 /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
+		F6C1A3D923165D0100374226 /* NormalAlertVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NormalAlertVC.h; sourceTree = "<group>"; };
+		F6C1A3DA23165D0100374226 /* NormalAlertVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NormalAlertVC.m; sourceTree = "<group>"; };
+		F6C1A3DC2316621900374226 /* ImageAlertVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageAlertVC.h; sourceTree = "<group>"; };
+		F6C1A3DD2316621900374226 /* ImageAlertVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageAlertVC.m; sourceTree = "<group>"; };
+		F6C1A3DF2316692C00374226 /* TextFieldAlertVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextFieldAlertVC.h; sourceTree = "<group>"; };
+		F6C1A3E02316692C00374226 /* TextFieldAlertVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextFieldAlertVC.m; sourceTree = "<group>"; };
+		F6C1A3E223166E0300374226 /* TextViewAlertVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextViewAlertVC.h; sourceTree = "<group>"; };
+		F6C1A3E323166E0300374226 /* TextViewAlertVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextViewAlertVC.m; sourceTree = "<group>"; };
+		F6C1A3E52316718F00374226 /* PickerAlertVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PickerAlertVC.h; sourceTree = "<group>"; };
+		F6C1A3E62316718F00374226 /* PickerAlertVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PickerAlertVC.m; sourceTree = "<group>"; };
+		F6C1A3E82316740700374226 /* TimerAlertVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimerAlertVC.h; sourceTree = "<group>"; };
+		F6C1A3E92316740700374226 /* TimerAlertVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimerAlertVC.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6C1A38F2316583200374226 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6C1A3A72316583300374226 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F6C1A3892316583200374226 = {
+			isa = PBXGroup;
+			children = (
+				F6C1A3942316583200374226 /* CHZAlertViewDemo */,
+				F6C1A3AD2316583300374226 /* CHZAlertViewDemoUITests */,
+				F6C1A3932316583200374226 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F6C1A3932316583200374226 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6C1A3922316583200374226 /* CHZAlertViewDemo.app */,
+				F6C1A3AA2316583300374226 /* CHZAlertViewDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6C1A3942316583200374226 /* CHZAlertViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F6C1A3B92316594000374226 /* CHZAlertView */,
+				F6C1A3D223165BCA00374226 /* Resources */,
+				F6C1A3952316583200374226 /* AppDelegate.h */,
+				F6C1A3962316583200374226 /* AppDelegate.m */,
+				F6C1A3982316583200374226 /* ViewController.h */,
+				F6C1A3992316583200374226 /* ViewController.m */,
+				F6C1A3CF2316598100374226 /* BasicViewController.h */,
+				F6C1A3D02316598100374226 /* BasicViewController.m */,
+				F6C1A3D923165D0100374226 /* NormalAlertVC.h */,
+				F6C1A3DA23165D0100374226 /* NormalAlertVC.m */,
+				F6C1A3DC2316621900374226 /* ImageAlertVC.h */,
+				F6C1A3DD2316621900374226 /* ImageAlertVC.m */,
+				F6C1A3DF2316692C00374226 /* TextFieldAlertVC.h */,
+				F6C1A3E02316692C00374226 /* TextFieldAlertVC.m */,
+				F6C1A3E223166E0300374226 /* TextViewAlertVC.h */,
+				F6C1A3E323166E0300374226 /* TextViewAlertVC.m */,
+				F6C1A3E52316718F00374226 /* PickerAlertVC.h */,
+				F6C1A3E62316718F00374226 /* PickerAlertVC.m */,
+				F6C1A3E82316740700374226 /* TimerAlertVC.h */,
+				F6C1A3E92316740700374226 /* TimerAlertVC.m */,
+				F6C1A39E2316583300374226 /* Assets.xcassets */,
+				F6C1A3A02316583300374226 /* LaunchScreen.storyboard */,
+				F6C1A3A32316583300374226 /* Info.plist */,
+				F6C1A3A42316583300374226 /* main.m */,
+			);
+			path = CHZAlertViewDemo;
+			sourceTree = "<group>";
+		};
+		F6C1A3AD2316583300374226 /* CHZAlertViewDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F6C1A3AE2316583300374226 /* CHZAlertViewDemoUITests.m */,
+				F6C1A3B02316583300374226 /* Info.plist */,
+			);
+			path = CHZAlertViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		F6C1A3B92316594000374226 /* CHZAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				F6C1A3BA2316594000374226 /* Model */,
+				F6C1A3C12316594000374226 /* View */,
+				F6C1A3C42316594000374226 /* Tool */,
+			);
+			path = CHZAlertView;
+			sourceTree = "<group>";
+		};
+		F6C1A3BA2316594000374226 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F6C1A3C02316594000374226 /* CHZAlertSetup.h */,
+				F6C1A3BD2316594000374226 /* CHZAlertSetup.m */,
+				F6C1A3BC2316594000374226 /* CHZAlertButtonItem.h */,
+				F6C1A3BE2316594000374226 /* CHZAlertButtonItem.m */,
+				F6C1A3BF2316594000374226 /* CHZPickerModel.h */,
+				F6C1A3BB2316594000374226 /* CHZPickerModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F6C1A3C12316594000374226 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F6C1A3C22316594000374226 /* CHZAlertView.h */,
+				F6C1A3C32316594000374226 /* CHZAlertView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F6C1A3C42316594000374226 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				F6C1A3C62316594000374226 /* CHZTextTool.h */,
+				F6C1A3C82316594000374226 /* CHZTextTool.m */,
+				F6C1A3C72316594000374226 /* UITextView+Placeholder.h */,
+				F6C1A3C52316594000374226 /* UITextView+Placeholder.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		F6C1A3D223165BCA00374226 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F6C1A3D323165BCA00374226 /* topIcon2.png */,
+				F6C1A3D423165BCA00374226 /* topIcon.png */,
+				F6C1A3D523165BCA00374226 /* image.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F6C1A3912316583200374226 /* CHZAlertViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6C1A3B32316583300374226 /* Build configuration list for PBXNativeTarget "CHZAlertViewDemo" */;
+			buildPhases = (
+				F6C1A38E2316583200374226 /* Sources */,
+				F6C1A38F2316583200374226 /* Frameworks */,
+				F6C1A3902316583200374226 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CHZAlertViewDemo;
+			productName = CHZAlertViewDemo;
+			productReference = F6C1A3922316583200374226 /* CHZAlertViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F6C1A3A92316583300374226 /* CHZAlertViewDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6C1A3B62316583300374226 /* Build configuration list for PBXNativeTarget "CHZAlertViewDemoUITests" */;
+			buildPhases = (
+				F6C1A3A62316583300374226 /* Sources */,
+				F6C1A3A72316583300374226 /* Frameworks */,
+				F6C1A3A82316583300374226 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6C1A3AC2316583300374226 /* PBXTargetDependency */,
+			);
+			name = CHZAlertViewDemoUITests;
+			productName = CHZAlertViewDemoUITests;
+			productReference = F6C1A3AA2316583300374226 /* CHZAlertViewDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6C1A38A2316583200374226 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = CHZ;
+				TargetAttributes = {
+					F6C1A3912316583200374226 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					F6C1A3A92316583300374226 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = F6C1A3912316583200374226;
+					};
+				};
+			};
+			buildConfigurationList = F6C1A38D2316583200374226 /* Build configuration list for PBXProject "CHZAlertViewDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F6C1A3892316583200374226;
+			productRefGroup = F6C1A3932316583200374226 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6C1A3912316583200374226 /* CHZAlertViewDemo */,
+				F6C1A3A92316583300374226 /* CHZAlertViewDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6C1A3902316583200374226 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6C1A3A22316583300374226 /* LaunchScreen.storyboard in Resources */,
+				F6C1A3D623165BCA00374226 /* topIcon2.png in Resources */,
+				F6C1A3D723165BCA00374226 /* topIcon.png in Resources */,
+				F6C1A39F2316583300374226 /* Assets.xcassets in Resources */,
+				F6C1A3D823165BCA00374226 /* image.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6C1A3A82316583300374226 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6C1A38E2316583200374226 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6C1A3CC2316594100374226 /* CHZAlertView.m in Sources */,
+				F6C1A3E72316718F00374226 /* PickerAlertVC.m in Sources */,
+				F6C1A3DB23165D0100374226 /* NormalAlertVC.m in Sources */,
+				F6C1A39A2316583200374226 /* ViewController.m in Sources */,
+				F6C1A3A52316583300374226 /* main.m in Sources */,
+				F6C1A3D12316598100374226 /* BasicViewController.m in Sources */,
+				F6C1A3E423166E0300374226 /* TextViewAlertVC.m in Sources */,
+				F6C1A3DE2316621900374226 /* ImageAlertVC.m in Sources */,
+				F6C1A3CE2316594100374226 /* CHZTextTool.m in Sources */,
+				F6C1A3CA2316594100374226 /* CHZAlertSetup.m in Sources */,
+				F6C1A3972316583200374226 /* AppDelegate.m in Sources */,
+				F6C1A3EA2316740700374226 /* TimerAlertVC.m in Sources */,
+				F6C1A3C92316594100374226 /* CHZPickerModel.m in Sources */,
+				F6C1A3E12316692C00374226 /* TextFieldAlertVC.m in Sources */,
+				F6C1A3CB2316594100374226 /* CHZAlertButtonItem.m in Sources */,
+				F6C1A3CD2316594100374226 /* UITextView+Placeholder.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6C1A3A62316583300374226 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6C1A3AF2316583300374226 /* CHZAlertViewDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F6C1A3AC2316583300374226 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6C1A3912316583200374226 /* CHZAlertViewDemo */;
+			targetProxy = F6C1A3AB2316583300374226 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F6C1A3A02316583300374226 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6C1A3A12316583300374226 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F6C1A3B12316583300374226 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F6C1A3B22316583300374226 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F6C1A3B42316583300374226 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F7MRZ24658;
+				INFOPLIST_FILE = CHZAlertViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CHZ.CHZAlertViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F6C1A3B52316583300374226 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F7MRZ24658;
+				INFOPLIST_FILE = CHZAlertViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CHZ.CHZAlertViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F6C1A3B72316583300374226 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F7MRZ24658;
+				INFOPLIST_FILE = CHZAlertViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CHZ.CHZAlertViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CHZAlertViewDemo;
+			};
+			name = Debug;
+		};
+		F6C1A3B82316583300374226 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F7MRZ24658;
+				INFOPLIST_FILE = CHZAlertViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CHZ.CHZAlertViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CHZAlertViewDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F6C1A38D2316583200374226 /* Build configuration list for PBXProject "CHZAlertViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6C1A3B12316583300374226 /* Debug */,
+				F6C1A3B22316583300374226 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6C1A3B32316583300374226 /* Build configuration list for PBXNativeTarget "CHZAlertViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6C1A3B42316583300374226 /* Debug */,
+				F6C1A3B52316583300374226 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6C1A3B62316583300374226 /* Build configuration list for PBXNativeTarget "CHZAlertViewDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6C1A3B72316583300374226 /* Debug */,
+				F6C1A3B82316583300374226 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F6C1A38A2316583200374226 /* Project object */;
+}
