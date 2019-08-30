@@ -52,7 +52,7 @@ README
 #### 普通弹窗
 ![image](https://github.com/Wymann/CHZAlertView/blob/master/GIFs/01.gif)
 #### 图片弹窗
-![image](https://github.com/Wymann/CHZAlertView/blob/master/GIFs/02.giff)
+![image](https://github.com/Wymann/CHZAlertView/blob/master/GIFs/02.gif)
 #### TextField弹窗
 ![image](https://github.com/Wymann/CHZAlertView/blob/master/GIFs/03.gif)
 #### TextView弹窗
