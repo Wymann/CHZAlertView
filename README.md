@@ -47,7 +47,7 @@ README
 其他各种样式请下载Demo参考
 -----------
 
-### 效果图
+### 效果图（GIF动图，网络不好的话可能会卡，等一会就会动了）
 -----------
 #### 普通弹窗
 ![image](https://github.com/Wymann/CHZAlertView/blob/master/GIFs/01.gif)
