@@ -50,15 +50,15 @@ README
 ### 效果图
 -----------
 #### 普通弹窗
-![image](https://github.com/Wymann/OWBreathView/blob/master/效果图/xiaoguo.gif)
+![image](https://github.com/Wymann/CHZAlertView/blob/master/GIFs/01.gif)
 #### 图片弹窗
-![image](https://github.com/Wymann/OWBreathView/blob/master/效果图/xiaoguo.gif)
+![image](https://github.com/Wymann/CHZAlertView/blob/master/GIFs/02.giff)
 #### TextField弹窗
-![image](https://github.com/Wymann/OWBreathView/blob/master/效果图/xiaoguo.gif)
+![image](https://github.com/Wymann/CHZAlertView/blob/master/GIFs/03.gif)
 #### TextView弹窗
-![image](https://github.com/Wymann/OWBreathView/blob/master/效果图/xiaoguo.gif)
+![image](https://github.com/Wymann/CHZAlertView/blob/master/GIFs/04.gif)
 #### 选择器弹窗
-![image](https://github.com/Wymann/OWBreathView/blob/master/效果图/xiaoguo.gif)
+![image](https://github.com/Wymann/CHZAlertView/blob/master/GIFs/05.gif)
 #### 倒计时消失弹窗
-![image](https://github.com/Wymann/OWBreathView/blob/master/效果图/xiaoguo.gif)
+![image](https://github.com/Wymann/CHZAlertView/blob/master/GIFs/06.gif)
 -----------
