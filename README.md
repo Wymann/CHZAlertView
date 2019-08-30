@@ -49,16 +49,16 @@ README
 
 ### 效果图
 -----------
-普通弹窗
+#### 普通弹窗
 ![image](https://github.com/Wymann/OWBreathView/blob/master/效果图/xiaoguo.gif)
-图片弹窗
+#### 图片弹窗
 ![image](https://github.com/Wymann/OWBreathView/blob/master/效果图/xiaoguo.gif)
-TextField弹窗
+#### TextField弹窗
 ![image](https://github.com/Wymann/OWBreathView/blob/master/效果图/xiaoguo.gif)
-TextView弹窗
+#### TextView弹窗
 ![image](https://github.com/Wymann/OWBreathView/blob/master/效果图/xiaoguo.gif)
-选择器弹窗
+#### 选择器弹窗
 ![image](https://github.com/Wymann/OWBreathView/blob/master/效果图/xiaoguo.gif)
-倒计时消失弹窗
+#### 倒计时消失弹窗
 ![image](https://github.com/Wymann/OWBreathView/blob/master/效果图/xiaoguo.gif)
 -----------
