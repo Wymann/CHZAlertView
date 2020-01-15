@@ -132,6 +132,13 @@ static const CGFloat pickerFont = 14.0;//pickerCell字体大小
     }completion:^(BOOL finished) {
         if (self.setup.countDownTimer > 0) {
             self.timeCount = self.setup.countDownTimer;
+            if (self.setup.replaceTimeString.length > 0 && [self.setup.information containsString:self.setup.replaceTimeString]) {
+                NSMutableString *mutInfo = [NSMutableString stringWithString:self.setup.information];
+                NSString *timeString = [NSString stringWithFormat:@"%ld", self.timeCount];
+                NSRange range = [self.setup.information rangeOfString:self.setup.replaceTimeString];
+                [mutInfo replaceCharactersInRange:range withString:timeString];
+                self.infoLabel.text = (NSString *)mutInfo;
+            }
             [self timer];
         }
         if (self.showBlock) {
@@ -654,6 +661,13 @@ static const CGFloat pickerFont = 14.0;//pickerCell字体大小
 /** 计时器方法 */
 - (void)countDown {
     _timeCount --;
+    if (self.setup.replaceTimeString.length > 0 && [self.setup.information containsString:self.setup.replaceTimeString]) {
+        NSMutableString *mutInfo = [NSMutableString stringWithString:self.setup.information];
+        NSString *timeString = [NSString stringWithFormat:@"%ld", self.timeCount];
+        NSRange range = [self.setup.information rangeOfString:self.setup.replaceTimeString];
+        [mutInfo replaceCharactersInRange:range withString:timeString];
+        self.infoLabel.text = (NSString *)mutInfo;
+    }
     if (self.countdownBlock) {
         self.countdownBlock(_timeCount);
     }

@@ -21,6 +21,8 @@
 }
 
 -(void)startPopAlertView {
+//    CHZAlertSetup *setup = [[CHZAlertSetup alloc] initWithAlertType:AlertViewType_Normal title:@"消息提醒" information:@"主人，下午好，有人按了客厅门铃。是否给他开门？" buttonItemArray:@[item0, item1] animationType:ShowAnimationType_FromLeft]; //快捷初始化
+    
     CHZAlertSetup *setup = [[CHZAlertSetup alloc] init];
     setup.sideTap = NO; //点击旁边空白处是否关闭弹窗
     setup.alertType = AlertViewType_TextView;

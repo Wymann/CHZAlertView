@@ -21,6 +21,9 @@
 }
 
 -(void)startPopAlertView {
+    CHZAlertButtonItem *item0 = [[CHZAlertButtonItem alloc] initWithTitle:@"取消" titleColor:nil backColor:nil image:nil];
+    CHZAlertButtonItem *item1 = [[CHZAlertButtonItem alloc] initWithTitle:@"确定" titleColor:nil backColor:[UIColor redColor] image:nil];
+//    CHZAlertSetup *setup = [[CHZAlertSetup alloc] initWithAlertType:AlertViewType_Normal title:@"消息提醒" information:@"主人，下午好，有人按了客厅门铃。是否给他开门？" buttonItemArray:@[item0, item1] animationType:ShowAnimationType_FromLeft]; //快捷初始化
     CHZAlertSetup *setup = [[CHZAlertSetup alloc] init];
     setup.sideTap = YES; //点击旁边空白处是否关闭弹窗
     setup.alertType = AlertViewType_Normal;
@@ -28,8 +31,6 @@
     setup.title = @"消息提醒";
     setup.information = @"主人，下午好，有人按了客厅门铃。是否给他开门？";
     setup.icon = [UIImage imageNamed:@"topIcon"];
-    CHZAlertButtonItem *item0 = [[CHZAlertButtonItem alloc] initWithTitle:@"取消" titleColor:nil backColor:nil image:nil];
-    CHZAlertButtonItem *item1 = [[CHZAlertButtonItem alloc] initWithTitle:@"确定" titleColor:nil backColor:[UIColor redColor] image:nil];
     setup.buttonItemArray = @[item0, item1];
     setup.buttonsShowType = ButtonsShowType_Horizontal;
     CHZAlertView *alertView = [[CHZAlertView alloc] initWithAlertSetup:setup];

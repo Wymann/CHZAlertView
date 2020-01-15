@@ -115,6 +115,11 @@ typedef NS_ENUM(NSInteger, ButtonsShowType) {
 @property (nonatomic) NSInteger countDownTimer;
 
 /**
+ 倒数时间占位字符串
+ */
+@property (nonatomic, copy) NSString *replaceTimeString;
+
+/**
  按钮数组
  */
 @property (nonatomic, strong) NSArray <CHZAlertButtonItem *>*buttonItemArray;
@@ -156,5 +161,19 @@ typedef NS_ENUM(NSInteger, ButtonsShowType) {
  pickerTableView Cell高度（用于AlertViewType_Picker）
  */
 @property (nonatomic) CGFloat pickerCellHeight;
+
+#pragma mark - init methods
+
+/// 初始化
+/// @param alertType 弹框类型
+/// @param title 标题
+/// @param information 描述
+/// @param buttonItemArray 按钮集合
+/// @param animationType 弹出动画类型
+- (instancetype)initWithAlertType:(AlertViewType)alertType
+                            title:(NSString *)title
+                      information:(NSString *)information
+                  buttonItemArray:(NSArray <CHZAlertButtonItem *>*)buttonItemArray
+                    animationType:(ShowAnimationType)animationType;
 
 @end
