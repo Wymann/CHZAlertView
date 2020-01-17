@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "CHZAlertView"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "弹窗效果封装，支持显示图片、TextField、TextView、tableVeiw选择器等类型"
 
   # This description is used to generate tags and improve search results.
