@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "CHZAlertView"
   s.version      = "0.0.1"
-  s.summary      = "Print and view logs on App easily"
+  s.summary      = "弹窗效果封装，支持显示图片、TextField、TextView、tableVeiw选择器等类型"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-Print and view logs on App easily.
+弹窗效果封装，支持显示图片、TextField、TextView、tableVeiw选择器等类型，也定时消失。
                    DESC
 
   s.homepage     = "https://github.com/Wymann/CHZAlertView"
@@ -91,7 +91,7 @@ Print and view logs on App easily.
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "CHZAlertView/*.{h,m}"
+  s.source_files  = "CHZAlertView/Model/*.{h,m}", "CHZAlertView/Tool/*.{h,m}", "CHZAlertView/View/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
